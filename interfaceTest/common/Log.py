@@ -1,5 +1,5 @@
 import os
-import interfaceTest.readConfig as readConfig
+import Autointerface.interfaceTest.readConfig as readConfig
 import logging
 from datetime import datetime
 import threading

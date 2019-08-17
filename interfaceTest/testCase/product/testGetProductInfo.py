@@ -1,9 +1,9 @@
 import unittest
 import paramunittest
-from interfaceTest.common import common
-from interfaceTest.common.Log import MyLog
-import interfaceTest.readConfig as readConfig
-from interfaceTest.common import configHttp as configHttp
+from Autointerface.interfaceTest.common import common
+from Autointerface.interfaceTest.common.Log import MyLog
+import Autointerface.interfaceTest.readConfig as readConfig
+from Autointerface.interfaceTest.common import configHttp as configHttp
 
 productInfo_xls = common.get_xls("productCase.xlsx", "getProductInfo")
 localReadConfig = readConfig.ReadConfig()

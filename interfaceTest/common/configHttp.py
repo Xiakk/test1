@@ -1,6 +1,6 @@
 import requests
-import interfaceTest.readConfig as readConfig
-from interfaceTest.common.Log import MyLog as Log
+import Autointerface.interfaceTest.readConfig as readConfig
+from Autointerface.interfaceTest.common.Log import MyLog as Log
 import json
 
 localReadConfig = readConfig.ReadConfig()

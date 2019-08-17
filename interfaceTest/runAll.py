@@ -1,9 +1,9 @@
 import os
 import unittest
-from interfaceTest.common.Log import MyLog as Log
-import interfaceTest.readConfig as readConfig
-from interfaceTest.common import HTMLTestRunner
-from interfaceTest.common.configEmail import MyEmail
+from Autointerface.interfaceTest.common.Log import MyLog as Log
+import Autointerface.interfaceTest.readConfig as readConfig
+from Autointerface.interfaceTest.common import HTMLTestRunner
+from Autointerface.interfaceTest.common.configEmail import MyEmail
 
 localReadConfig = readConfig.ReadConfig()
 

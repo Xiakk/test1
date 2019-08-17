@@ -1,10 +1,10 @@
 import requests
-import interfaceTest.readConfig as readConfig
+import Autointerface.interfaceTest.readConfig as readConfig
 import os
 from xlrd import open_workbook
 from xml.etree import ElementTree as ElementTree
-from interfaceTest.common import configHttp as configHttp
-from interfaceTest.common.Log import MyLog as Log
+from Autointerface.interfaceTest.common import configHttp as configHttp
+from Autointerface.interfaceTest.common.Log import MyLog as Log
 import json
 
 localReadConfig = readConfig.ReadConfig()
