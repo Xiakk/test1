@@ -1,0 +1,21 @@
+{
+	"dsbsApplyNo":"20180329081530792359084126208",
+	"plfmEttId":2,
+	"plfmEttCode":"QCai",
+	"custId":3,
+	"memCode":"kong123",
+	"fcltId":1,
+	"fcltCode":"I05QCAI001",
+	"olFcltId":1,
+	"olFcltCode":"I05QCAIBXIANGJR001",
+	"fdingEttId":3,
+	"applyLinitiateMtd":"APP",
+	"applyAmt":100,
+	"applyTenors":"30-D",
+	"applyTenor":30,
+	"applyTenorUnit":"D",
+	"rpmntmtd":"ROPAIAM",
+	"dsbsApplyScale":100,
+	"applyPeriods":1,
+	"sngSucFlag":1
+}

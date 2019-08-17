@@ -1,0 +1,33 @@
+{
+	"plfmEttCode": "QCai",
+	"memCode": "kong123",
+	"fcltCode": "I05QCAI001",
+	"applyLinitiateMtd": "APP",
+	"plfmLoanOrderNo": "11118",
+	"applyAmt": 100,
+	"orders": [{
+		"deleteFlag": 0,
+		"orderNo": "11111",
+		"orderStatus": "TRSDLV",
+		"orderAmount": 100,
+		"orderType": "12345",
+		"orderTime": "2018-01-01 12:23:21",
+		"goods": [{
+			"a1": "a1"
+		}, {
+			"b1": "b1"
+		}]
+	}, {
+		"deleteFlag": 0,
+		"orderNo": "22222",
+		"orderStatus": "TRSDLV",
+		"orderAmount": 200,
+		"orderType": "12345",
+		"orderTime": "2018-01-01 12:23:25",
+		"goods": [{
+			"a2": "a2"
+		}, {
+			"b2": "b2"
+		}]
+	}]
+}
