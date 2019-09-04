@@ -1,6 +1,6 @@
 import requests
-import Autointerface.interfaceTest.readConfig as readConfig
-from Autointerface.interfaceTest.common.Log import MyLog as Log
+import interfaceTest.readConfig as readConfig
+from interfaceTest.common.Log import MyLog as Log
 
 
 localReadConfig = readConfig.ReadConfig()

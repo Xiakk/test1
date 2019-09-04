@@ -1,6 +1,6 @@
-from Autointerface.interfaceTest.common import common
-from Autointerface.interfaceTest.common import configHttp
-import Autointerface.interfaceTest.readConfig as readConfig
+from interfaceTest.common import common
+from interfaceTest.common import configHttp
+import interfaceTest.readConfig as readConfig
 
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
