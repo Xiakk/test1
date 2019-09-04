@@ -51,5 +51,3 @@ def logout(token):
 
     # logout
     localConfigHttp.get()
-
-

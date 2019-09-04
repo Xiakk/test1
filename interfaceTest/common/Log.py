@@ -1,5 +1,5 @@
 import os
-import Autointerface.interfaceTest.readConfig as readConfig
+import interfaceTest.readConfig as readConfig
 import logging
 from datetime import datetime
 import threading
@@ -104,19 +104,9 @@ class MyLog:
 
         return MyLog.log
 
+
 if __name__ == "__main__":
     log = MyLog.get_log()
     logger = log.get_logger()
     logger.debug("test debug")
     logger.info("test info")
-
-
-
-
-
-
-
-
-
-
-

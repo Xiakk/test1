@@ -1,12 +1,14 @@
 import pymysql
-import Autointerface.interfaceTest.readConfig as readConfig
-from Autointerface.interfaceTest.common.Log import MyLog as Log
+import interfaceTest.readConfig as readConfig
+from interfaceTest.common.Log import MyLog as Log
 
 localReadConfig = readConfig.ReadConfig()
 
 
 class MyDB:
+
     global host, username, password, port, database, config
+
     host = localReadConfig.get_db("host")
     username = localReadConfig.get_db("username")
     password = localReadConfig.get_db("password")
@@ -78,4 +80,3 @@ class MyDB:
         """
         self.db.close()
         print("Database closed!")
-

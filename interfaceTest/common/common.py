@@ -157,6 +157,7 @@ def get_url_from_xml(name):
     url = '/v2/' + '/'.join(url_list)
     return url
 
+
 if __name__ == "__main__":
     print(get_xls("login"))
     set_visitor_token_to_config()
